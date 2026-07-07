@@ -55,36 +55,6 @@ All audit trails, configuration states, and incident logs are cryptographically 
 
 ---
 
-## 📂 Project Architecture & Code Map
-```text
-├── presentation.html         # Reveal.js 21-slide pitch deck (16:9 widescreen layout)
-├── index.html                # Main mount page template
-├── tailwind.config.js        # Custom cyber-neon color configuration
-├── package.json              # Compilation scripts and dependencies
-├── src/
-│   ├── main.tsx              # React mounting root
-│   ├── App.tsx               # Main layout router and global emergency lockdown overlay
-│   ├── index.css             # Base styles, scrollbars, scanlines, and glow keyframes
-│   ├── components/
-│   │   ├── Sidebar.tsx       # Navigation bar and global core shield status indicator
-│   │   └── DemoController.tsx# Interactive panel triggering 6-step flight path demo
-│   ├── context/
-│   │   └── DemoContext.tsx   # Global state machine containing data indices and incident updates
-│   ├── utils/
-│   │   └── mockData.ts       # Mock database models (employees, branch logs, Neo4j graphs)
-│   └── screens/
-│       ├── OverviewScreen.tsx    # Screen 1: Executive KPI counters, risk scores, and trend charts
-│       ├── HeatmapScreen.tsx     # Screen 2: Risk heatmaps of Indian banking branch nodes
-│       ├── DigitalTwinScreen.tsx # Screen 3: Floor Plan Blueprint & Biometric DNA charts
-│       ├── ThreatFeedScreen.tsx  # Screen 4: Real-time incident logs and explainable AI alerts
-│       ├── SimulatorScreen.tsx   # Screen 5: Privilege Command Terminal & Impact Simulator
-│       ├── QuantumVaultScreen.tsx# Screen 6: FIPS PQC Audit Log Archive (Kyber/Dilithium)
-│       ├── ThreatGraphScreen.tsx # Screen 7: Relational Asset Connection Matrix
-│       └── SOCCommandScreen.tsx  # Screen 8: SOC Command War Room (AI Analyst Copilot)
-```
-
----
-
 ## 🖥️ Screen-by-Screen Features
 
 ### 1. Executive Security Console (`OverviewScreen.tsx`)
